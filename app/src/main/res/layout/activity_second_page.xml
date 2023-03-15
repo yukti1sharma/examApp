@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wave_3"
+    tools:context=".SecondPage">
+
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:textSize="28dp"
+        android:text="Here's your quiz on the topic \n 'INDIA' " />
+
+    <TextView
+        android:id="@+id/tvQues1"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 1 " />
+
+    <TextView
+        android:id="@+id/tvQues2"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 2 " />
+
+    <TextView
+        android:id="@+id/tvQues3"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 3 " />
+
+    <TextView
+        android:id="@+id/tvQues4"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 4 " />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:backgroundTint="@color/blue"
+        android:layout_height="wrap_content"
+        android:text="Exit from app "
+        />
+
+
+</LinearLayout>
